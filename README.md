@@ -1,4 +1,4 @@
-# 📘 Scope 3 Emissions Prediction Platform
+# Scope 3 Emissions Prediction Platform
 
 This repository contains the full implementation of a machine learning platform developed for my MSc Dissertation: **Predicting Scope 3 Emissions Using Machine Learning on ERP-style Data**.
 
@@ -6,19 +6,19 @@ The project includes data preprocessing, model training, SHAP-based explainabili
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Scope 3 emissions are notoriously hard to measure, relying heavily on upstream and downstream supplier data. This platform demonstrates how machine learning, using ERP-style inputs, can provide fast, explainable estimates of product-level emissions.
 
 **Core components:**
-- 🧼 Structured preprocessing pipeline with encoding, transformation, and feature engineering
-- ⚙️ XGBoost model for emissions prediction (with cross-validation)
-- 📊 SHAP integration for interpretability
-- 🖥️ Interactive UI built using Voila (Jupyter Widgets)
+- Structured preprocessing pipeline with encoding, transformation, and feature engineering
+- XGBoost model for emissions prediction (with cross-validation)
+- SHAP integration for interpretability
+- Interactive UI built using Voila (Jupyter Widgets)
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 scope3-emissions-predictor/
@@ -37,9 +37,9 @@ scope3-emissions-predictor/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-### 🔧 1. Install Dependencies
+### 1. Install Dependencies
 Create a virtual environment and run:
 ```bash
 pip install -r requirements.txt
@@ -47,25 +47,25 @@ pip install -r requirements.txt
 
 Make sure you're using `ipywidgets==7.7.2` for Voila compatibility.
 
-### 🧠 2. Train the Model
+### 2. Train the Model
 ```bash
 python scripts/data_preprocessing.py
 python scripts/train_model.py
 ```
 
-### 🔍 3. Generate SHAP Explanations (optional)
+### 3. Generate SHAP Explanations (optional)
 ```bash
 python scripts/shap_explainer.py
 ```
 
-### 🖥️ 4. Launch the UI
+### 4. Launch the UI
 ```bash
 voila notebooks/scope3_voila_ui_dropdowns.ipynb
 ```
 
 ---
 
-## 🧪 Example Input
+## Example Input
 ```
 Commodity: Cement
 Production Value: 42000
@@ -86,28 +86,11 @@ commodity: 0.12
 
 ---
 
-## 📚 Dissertation Details
+## Dissertation Details
 This platform supports the research findings in:
 
 **Title**: _Predicting Scope 3 Emissions Using Machine Learning on ERP-style Data_  
-**Author**: [Your Name]  
+**Author**: [Sonja Lovegrove]  
 **Degree**: MSc Data Science & Applied AI  
-**University**: [Your Institution]  
+**University**: [Solent University]  
 **Year**: 2025
-
----
-
-## 📷 Appendix (Recommended)
-- UI Screenshots
-- SHAP Plots
-- Sample JSON I/O
-
----
-
-## 📄 License
-[MIT License](LICENSE) (or university default policy)
-
----
-
-## 🙋 Contact
-Feel free to reach out via GitHub Issues or [your.email@example.com] for any questions.
