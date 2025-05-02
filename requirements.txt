@@ -1,0 +1,9 @@
+pandas
+numpy
+xgboost
+scikit-learn
+joblib
+shap
+matplotlib
+ipywidgets==7.7.2
+voila
